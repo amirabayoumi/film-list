@@ -1,0 +1,69 @@
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.movie-container img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.movieInfo {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.movieInfo h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+}
+
+.movieInfo p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #666;
+}
+
+.liked-btn {
+    margin-top: 10px;
+}
+
+.btn-heart {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: transform 0.2s;
+}
+
+.btn-heart:focus {
+    outline: none;
+}
+
+.btn-heart:hover {
+    transform: scale(1.2);
+}
+
+.movie-container.yes {
+    border: 2px solid red;
+}
+
+.movie-container.no {
+    border: 2px solid transparent;
+}

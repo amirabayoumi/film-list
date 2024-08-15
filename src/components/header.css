@@ -1,0 +1,10 @@
+header {
+    background: linear-gradient(90deg, #292929, #4e1427); /* Gradient background */
+    color: #eee9e9; 
+    padding: 20px 10%;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger ; 
+}
